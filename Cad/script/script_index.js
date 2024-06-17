@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(response => {
             console.log('Status da resposta:', response.status);
             if (!response.ok) {
-                throw new Error('Network response was not ok');
+                throw new Error('Credenciais incorretas');
             }
             return response.json();
         })
