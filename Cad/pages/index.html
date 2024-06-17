@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/index.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça login<br>para ver suas informações</h1>
+            <img class="left-login-image" src="../images/safe-animate.svg" alt="Imagem de uma mulher no seu computador">
+        </div>
+
+        <form id="form_login" action="" method="post">
+            <div class="right-login">
+                <div class="card-login">
+                    <h1>LOGIN</h1>
+                    <div class="textField">
+                        <label for="usuario">Email</label>
+                        <input type="text" id="usuario" name="usuario" placeholder="Email">
+                    </div>
+                    <div class="textField">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" name="senha" placeholder="Senha">
+                    </div>
+                    <button id="btn-login" class="btn-login" type="submit">Login</button>
+                    <button class="btn-cadastro" type="button" onclick="window.location.href='./signUP.html'">Realizar Cadastro</button>
+                </div>
+            </div>
+        </form>
+        <script src="../script/script_index.js"></script>
+    </div>
+</body>
+
+</html>

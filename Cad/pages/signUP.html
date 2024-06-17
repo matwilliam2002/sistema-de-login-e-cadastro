@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/cadastro.css">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça login<br>para ver suas informações</h1>
+            <img class="left-login-image" src="../images/safe-animate.svg" alt="Imagem de uma mulher no seu computador">
+        </div>
+
+        <div class="right-login">
+            <div class="card-login">
+                <h1>Cadastro</h1>
+                <form id="form_signup" action="" method="post">
+                    <div class="textField">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" placeholder="Insira seu nome" autocomplete="given-name">
+                    </div>
+                    <div class="textField">
+                        <label for="lastName">Sobrenome</label>
+                        <input type="text" id="lastName" name="lastName" placeholder="Insira seu sobrenome" autocomplete="family-name">
+                    </div>
+                    <div class="textField">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Insira seu email" autocomplete="email">
+                    </div>
+                    <div class="textField">
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" name="password" placeholder="Insira a sua senha" autocomplete="new-password">
+                    </div>
+                    <div class="textField">
+                        <label for="confirmPassword">Confirmação de senha</label>
+                        <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Insira sua senha novamente" autocomplete="new-password">
+                    </div>
+                    <button id="btnCadastro" class="btn-cadastro">Cadastro</button>
+                </form>
+                <script src="../script/script_signUP.js"></script>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
